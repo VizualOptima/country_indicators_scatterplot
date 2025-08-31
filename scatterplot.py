@@ -5,7 +5,7 @@ from dash import Dash,dcc,html,callback,Input,Output,no_update #register_page
 
 #register_page(__name__,path="/charts",name="Charts")
 
-app = Dash(__name__) #<----- temporary , for code testing
+app = Dash(__name__) 
 '''
 since it is a multi-page dashboard, we do not need to initialize
 dash with app=Dash()
